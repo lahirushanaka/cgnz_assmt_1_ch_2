@@ -67,7 +67,7 @@ server {
                 listen  [::]:80;
                     server_name  << AWS DNS NAME>>;
                                 location / {
-                                                proxy_pass http://ec2-54-151-221-250.ap-southeast-1.compute.amazonaws.com:80;
+                                                proxy_pass http://<< AWS DNS NAME>>:80;
                                                 }
 } 
 ```
